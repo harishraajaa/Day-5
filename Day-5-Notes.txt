@@ -1,0 +1,50 @@
+Day-5
+
+1. Classes
+
+how to create class pathom.
+
+class user{
+    constructor(name,email,mobilenumber,pwd){
+        this.name=name
+        this.email=email
+        this.mobilenumber=mobilenumber
+        this.pwd=pwd
+    }
+
+    display(){
+        console.log(this.name,this.email,this.mobilenumber,this.pwd)
+    }
+}
+
+let user1 = new user("Harish","rvharish@gmail.com",8973815197,"123")
+let user2 = new user("Pavithra","paviforharish@gmail.com",8883670253)
+
+//console.log(user1.name,user1.email,user1.mobilenumber)
+
+user1.display()
+user2.display()
+
+
+2. Inheritance
+
+>>>>Single
+
+A->B
+
+>>>>Hierarchical inheritance
+
+Parent->child1
+Parent->Child2
+
+>>>>multilevel inheritance
+
+A->B->C
+
+>>>>multiple inheritance (directly not possible but diff approach is there to acheive)
+
+A->B
+C->A
+
+
+3. Static and Private examples in index.js
